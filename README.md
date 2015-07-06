@@ -15,3 +15,14 @@ Command line arguments with either long or short options:
 Now I am running an instance at:
 
 [http://128.199.203.224/d?dn=www.google.com](http://128.199.203.224/d?dn=www.google.com)
+
+
+## Compile
+* Windows solution is just for debug & test, please set libevent2 includes/libs first
+
+* Linux
+* Download & compile & install libevent2 first, then
+
+```shell
+g++ http_dns.cpp -o http_dns -levent
+```
