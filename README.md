@@ -18,11 +18,10 @@ Now I am running an instance at:
 
 
 ## Compile
-* Windows solution is just for debug & test, please set libevent2 includes/libs first
+Windows solution is just for debug & test, please set libevent2 includes/libs first
 
 * Linux
-* Download & compile & install libevent2 first, then
-
+Download & compile & install libevent2 first, then
 ```shell
 g++ http_dns.cpp -o http_dns -levent
 ```
